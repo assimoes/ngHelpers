@@ -10,6 +10,13 @@ It outputs a filtered array.
 
 ### Usage
 
+```html
+
+<script src="path.to/angular.min.js" />
+<script src="path.to/ngHelpers.js" />
+
+```
+
 ```javascript
 
 angular.module('myApp',['ngHelpers'])
@@ -28,3 +35,4 @@ angular.module('myApp',['ngHelpers'])
        
           // will return an array with the elements with the unique key 1 and 3
        });
+```
