@@ -26,5 +26,5 @@ angular.module('myApp',['ngHelpers'])
                                  .where({key:'prop2',value:1})
                                  .exec();
        
-          // will return a array with the elements with the unique key 1 and 3
+          // will return an array with the elements with the unique key 1 and 3
        });
