@@ -8,6 +8,40 @@ This service tries to mimic LINQ extension methods.
 
 It outputs a filtered array.
 
+### Methods
+
+##### array
+
+Takes an array as argument. 
+This should be the Array you want to filter
+
+Eg.:
+
+```javascript
+linqular(myArray)
+```
+
+##### where
+
+Takes an object as argument.
+The object must contain a key and a value property.
+
+Eg.: 
+
+```javascript
+linqular(myArray).where({key: 'property1', value:'some value'})
+```
+
+##### exec
+
+This method finalizes the query and returns a filtered array.
+
+eg.:
+
+```javascript
+var filtered = linqular(myArray).where({key: 'property1', value:'some value'}).exec();
+```
+
 ### Usage
 
 ```html
